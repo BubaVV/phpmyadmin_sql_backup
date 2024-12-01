@@ -9,8 +9,8 @@ A Python 3 script to __automate the download of SQL backups via a
 This is useful when your web hosting provider does not grant you access to a console (for `mysqldump`) but
 you want to automate the backup of your database (without having to manually use the browser).
 
-It has been tested with Python 3.4+ on Linux and Windows and the following versions of phpMyAdmin:
-`4.3.x - 4.8.x, 5.0.0` 
+It has been tested with Python 3.8 on Linux and the following versions of phpMyAdmin:
+`5.2`
 
 _Note_: The web interface of phpMyAdmin may change in the future and break this script. Please file a bug report
 (including your version of phpMyAdmin) if you encounter this issue.
@@ -83,9 +83,8 @@ UTC date / time to the directory `/tmp`, e.g. `/tmp/2016-03-11--15-19-04-UTC_exa
 
 ## Requirements
 
- - A [Python 3.4+](https://www.python.org/) installation on your system
- - [Grab - python web-scraping framework](https://github.com/lorien/grab): Install via `pip install -U Grab` or see 
-   the [installation instructions](https://grab.readthedocs.io/en/latest/usage/installation.html) if you run into problems.
+ - A [Python 3.8+](https://www.python.org/) installation on your system
+ - Requirements - `pip install -r requirements.txt`
 
 __Note for Windows users__: while it is possible to install the requirements natively, it is often easier to use the
 [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) if you are using Windows 10
